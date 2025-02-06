@@ -24,13 +24,15 @@ if you use this for the first time you can delete all subfolders, just keep the 
 
 2. after executing this code for the first time, RASPA will create the Folders CrashRestart, Movies, VTK, Output, and Restart. For now we only need the the output file under Restart/System0/ where we can see the (random) position of our single molecule (at the bottom). To start the simulation again from a chosen position, we copy that file to a new folder RestartInitial/System0/ (which we create manually or alternatively run "cp -r Restart RestartInitial/") and modify the position of the molecule to our needs (here we put it to the xyz-position [4.56, 0, 0], i.e. 4.56 Å distance to the single framework atom (which is located at the origin as defined in the example_structure_1_atom.cif file)). To do so we change the line 48 to "Adsorbate-atom-position: 0 0    4.56 0.0 0.0". Now we can reverse the 2 steps taken under 1. in the simulation.input file (include the "RestartFile yes" line to start the simulation with the molecule at the defined position and comment out/delete the line "CreateNumberOfMolecules  1" to not create a second molecule). then, the calculation can be (re-)started with "bash run" as before.
 
-3. now we can check the results for the LJ-interaction in the simulations output file under Output/System0/. the "Host/Adsorbate energy" can be seen in line 689 and is splitted into LJ (i.e. VDW energy) and Coulomb (which again is split into the real and the fourier part). To check if these results make sense we can check what values we expect with the jupyter notebook verification.ipynb. For the distance of 4.56 Å we get a LJ interaction of -32.53 K and a Coulombic interaction of 11589.97. The LJ energy can be verified to whole precision. The coulombic energy calculated with the ewald sum in RASPA2 is higher than the single pair interaction value as the Ewald method takes into accounth the interaction with the periodic repetition of the unitcell too (its therefore higher as all repetitions are also positive charges, therefore adding positively)
+3. now we can check the results for the LJ-interaction in the simulations output file under Output/System0/. the "Host/Adsorbate energy" can be seen in line 689 and is splitted into LJ (i.e. VDW energy) and Coulomb (which again is split into the real and the fourier part). To check if these results make sense we can check what values we expect with the jupyter notebook verification.ipynb. For the distance of 4.56 Å we get a LJ interaction of -32.53 K and a Coulombic interaction of 11589.97. The LJ energy can be verified to whole precision. The coulombic interaction of the single pair can be calculated with the CoulombTruncated method to be 5694.63 K. 
+
+The coulombic energy calculated with the ewald sum in RASPA2 is higher than the single pair interaction value as the Ewald method takes into accounth the interaction with the periodic repetition of the unitcell too (its therefore higher as all repetitions are also positive charges, therefore adding positively)
 
 
 ## 2. run auto
 
 just run
 '''
-bash run_auto_bash
+bash run_auto
 '''
 
