@@ -17,6 +17,7 @@ if you use this for the first time you can delete all subfolders, just keep the 
 - README.me # this file, not relevant for RASPA
 - verification.ipynb # not relevant for RASPA, intended to verify if results are plausible
 - how2raspa2.code-workspace # not relevant for RASPA, intended to convieniently open this folder in VSC (optional)
+- run_auto # not needed for the manual start from scratch procedure, but here to au
 
 - (maybe dont delete the .git folder ;)
 1. once you have only these files in a folder, you can start the calculation with executing "bash run" from a terminal (in this folder). [RASPA has to be installed in the RASPA_DIR defined in the bash script "run"]. make sure that in simulation.input the "CreateNumberOfMolecules  1" line is not commented out to make sure a single XX molecule is created and the "RestartFile yes" is commented out.
@@ -26,5 +27,10 @@ if you use this for the first time you can delete all subfolders, just keep the 
 3. now we can check the results for the LJ-interaction in the simulations output file under Output/System0/. the "Host/Adsorbate energy" can be seen in line 689 and is splitted into LJ (i.e. VDW energy) and Coulomb (which again is split into the real and the fourier part). To check if these results make sense we can check what values we expect with the jupyter notebook verification.ipynb. For the distance of 4.56 Å we get a LJ interaction of -32.53 K and a Coulombic interaction of 11589.97. The LJ energy can be verified to whole precision. The coulombic energy calculated with the ewald sum in RASPA2 is higher than the single pair interaction value as the Ewald method takes into accounth the interaction with the periodic repetition of the unitcell too (its therefore higher as all repetitions are also positive charges, therefore adding positively)
 
 
+## 2. run auto
 
+just run
+'''
+bash run_auto_bash
+'''
 

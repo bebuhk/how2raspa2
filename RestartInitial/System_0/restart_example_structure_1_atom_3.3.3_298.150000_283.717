@@ -45,11 +45,6 @@ Reactions: 0
 
 Component: 0     Adsorbate    1 molecules of XX
 ------------------------------------------------------------------------
-Adsorbate-atom-position: 0 0   4.56 0 0 
-Adsorbate-atom-velocity: 0 0     1.376960433196    -4.051869499346     3.481194497682
-Adsorbate-atom-force:    0 0   -93.981006987968  -184.194021220317     8.316153375214
-Adsorbate-atom-charge:   0 0     0.420000000000
-Adsorbate-atom-scaling:  0 0     1.000000000000
-Adsorbate-atom-fixed:    0 0       0 0 0
 
 
+Adsorbate-atom-position:  0 0 4.56 0.0 0.0

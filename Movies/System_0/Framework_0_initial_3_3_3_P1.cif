@@ -1,7 +1,7 @@
 data_example_structure_1_atom
 
 _audit_creation_method RASPA-1.0
-_audit_creation_date 2025-2-5
+_audit_creation_date 2025-2-6
 _audit_author_name 'Bene B'
 
 _cell_length_a    300

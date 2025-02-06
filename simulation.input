@@ -16,7 +16,9 @@ RemoveAtomNumberCodeFromLabel yes
 UseChargesFromCIFFile yes
 CutOffVDW 20
 
-ChargeMethod Ewald
+ChargeMethod CoulombTruncated
+#CoulombTruncated
+#Ewald
 #Ewald#CoulombSmoothed#CoulombShifted
 
 # used to compute Ewald parameter alpha
@@ -35,7 +37,7 @@ Framework 0
 Component 0 MoleculeName             XX
             MoleculeDefinition       example_structure_1_atom
 #important: create one molecule in first calculation ("starting from scratch). then comment/delete this (below) line with # when starting from restart file to not create a second molecule
-#            CreateNumberOfMolecules  1
+#CreateNumberOfMolecules  1
             TranslationProbability   1.0
             ReinsertionProbability   1.0
             RotationProbability 1.0

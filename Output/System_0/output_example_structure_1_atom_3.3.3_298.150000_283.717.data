@@ -5,13 +5,13 @@ Compiled as a 64-bits application
 Compiler: gcc Apple LLVM 15.0.0 (clang-1500.3.9.4)
 Compile Date = Jan 17 2025, Compile Time = 14:34:57
 
-Wed Feb  5 23:39:26 2025
-Simulation started on Wednesday, February 05.
-The start time was 11:39 PM.
+Thu Feb  6 16:29:38 2025
+Simulation started on Thursday, February 06.
+The start time was 04:29 PM.
 
 Cpu data:    arm64
 Cpu Model:   Mac14,2
-Host name:   Benes-Air
+Host name:   student-net-nw-3584.intern.ethz.ch
 OS release:  23.2.0
 OS type:     Darwin
 OS version:  23C71
@@ -20,7 +20,7 @@ OS version:  23C71
 Simulation
 ===========================================================================
 Dimensions: 3
-Random number seed: 1738795166
+Random number seed: 1738855778
 RASPA directory set to: /Users/bene/RASPA/simulations/
 String appended to output-files: 
 Number of cycles: 0
@@ -137,10 +137,7 @@ Method and settings for electrostatics
 ===============================================================================
 Dielectric constant of the medium : 1.000000
 Charge from charge-equilibration: no
-Ewald summation is used (exact solution of a periodic system)
-Relative precision                : 1e-09
-Alpha convergence parameter       : 0.098795
-kvec (x,y,z)                      : 40 40 40
+Coulombic potential is truncated at: 40.000000 [A]
 
 
 CFC-RXMC parameters
@@ -628,11 +625,11 @@ Host/Host energy:                                             0.00000000
 	Host/Host bondipole-bonddipole Real energy:                   0.00000000
 	Host/Host bondipole-bonddipole Fourier energy:                0.00000000
 
-Host/Adsorbate energy:                                    11557.43958774
+Host/Adsorbate energy:                                     5662.10162214
 	Host/Adsorbate VDW energy:                                  -32.52728861
-	Host/Adsorbate Coulomb energy:                            11589.96687635
-	Host/Adsorbate charge-charge Real energy:                  2984.28289570
-	Host/Adsorbate charge-charge Fourier energy:               8605.68398065
+	Host/Adsorbate Coulomb energy:                             5694.62891075
+	Host/Adsorbate charge-charge Real energy:                  5694.62891075
+	Host/Adsorbate charge-charge Fourier energy:                  0.00000000
 	Host/Adsorbate charge-bonddipole Real energy:                 0.00000000
 	Host/Adsorbate charge-bonddipole Fourier energy:              0.00000000
 	Host/Adsorbate bondipole-bonddipole Real energy:              0.00000000
@@ -648,11 +645,11 @@ Host/Cation energy:                                           0.00000000
 	Host/Cation bondipole-bonddipole Real energy:                 0.00000000
 	Host/Cation bondipole-bonddipole Fourier energy:              0.00000000
 
-Adsorbate/Adsorbate energy:                                       -0.00000000
+Adsorbate/Adsorbate energy:                                        0.00000000
 	Adsorbate/Adsorbate VDW energy:                                    0.00000000
-	Adsorbate/Adsorbate Coulomb energy:                               -0.00000000
+	Adsorbate/Adsorbate Coulomb energy:                                0.00000000
 	Adsorbate/Adsorbate charge-charge Real energy:                     0.00000000
-	Adsorbate/Adsorbate charge-charge Fourier energy:                 -0.00000000
+	Adsorbate/Adsorbate charge-charge Fourier energy:                  0.00000000
 	Adsorbate/Adsorbate charge-bonddipole Real energy:                 0.00000000
 	Adsorbate/Adsorbate charge-bonddipole Fourier energy:              0.00000000
 	Adsorbate/Adsorbate bondipole-bonddipole Real energy:              0.00000000
@@ -696,9 +693,9 @@ Out-of-plane distance constraints energy:                     0.00000000
 Exclusion constraints energy:                                 0.00000000
 
 ===================================================================
-Total energy: 11557.436967644413
+Total energy:  5662.099002049300
 	Total Van der Waals: -32.527289
-	Total Coulomb: 11589.966876
+	Total Coulomb: 5694.628911
 
 	Total Polarization: 0.000000
 
@@ -780,11 +777,11 @@ Host/Host energy:                                             0.00000000
 	Host/Host bondipole-bonddipole Real energy:                   0.00000000
 	Host/Host bondipole-bonddipole Fourier energy:                0.00000000
 
-Host/Adsorbate energy:                                    11557.43958774
+Host/Adsorbate energy:                                     5662.10162214
 	Host/Adsorbate VDW energy:                                  -32.52728861
-	Host/Adsorbate Coulomb energy:                            11589.96687635
-	Host/Adsorbate charge-charge Real energy:                  2984.28289570
-	Host/Adsorbate charge-charge Fourier energy:               8605.68398065
+	Host/Adsorbate Coulomb energy:                             5694.62891075
+	Host/Adsorbate charge-charge Real energy:                  5694.62891075
+	Host/Adsorbate charge-charge Fourier energy:                  0.00000000
 	Host/Adsorbate charge-bonddipole Real energy:                 0.00000000
 	Host/Adsorbate charge-bonddipole Fourier energy:              0.00000000
 	Host/Adsorbate bondipole-bonddipole Real energy:              0.00000000
@@ -800,11 +797,11 @@ Host/Cation energy:                                           0.00000000
 	Host/Cation bondipole-bonddipole Real energy:                 0.00000000
 	Host/Cation bondipole-bonddipole Fourier energy:              0.00000000
 
-Adsorbate/Adsorbate energy:                                       -0.00000000
+Adsorbate/Adsorbate energy:                                        0.00000000
 	Adsorbate/Adsorbate VDW energy:                                    0.00000000
-	Adsorbate/Adsorbate Coulomb energy:                               -0.00000000
+	Adsorbate/Adsorbate Coulomb energy:                                0.00000000
 	Adsorbate/Adsorbate charge-charge Real energy:                     0.00000000
-	Adsorbate/Adsorbate charge-charge Fourier energy:                 -0.00000000
+	Adsorbate/Adsorbate charge-charge Fourier energy:                  0.00000000
 	Adsorbate/Adsorbate charge-bonddipole Real energy:                 0.00000000
 	Adsorbate/Adsorbate charge-bonddipole Fourier energy:              0.00000000
 	Adsorbate/Adsorbate bondipole-bonddipole Real energy:              0.00000000
@@ -848,9 +845,9 @@ Out-of-plane distance constraints energy:                     0.00000000
 Exclusion constraints energy:                                 0.00000000
 
 ===================================================================
-Total energy: 11557.436967644413
+Total energy:  5662.099002049300
 	Total Van der Waals: -32.527289
-	Total Coulomb: 11589.966876
+	Total Coulomb: 5694.628911
 
 	Total Polarization: 0.000000
 
@@ -1147,11 +1144,11 @@ Host/Host energy:                                             0.00000000
 	Host/Host bondipole-bonddipole Real energy:                   0.00000000
 	Host/Host bondipole-bonddipole Fourier energy:                0.00000000
 
-Host/Adsorbate energy:                                    11557.43958774
+Host/Adsorbate energy:                                     5662.10162214
 	Host/Adsorbate VDW energy:                                  -32.52728861
-	Host/Adsorbate Coulomb energy:                            11589.96687635
-	Host/Adsorbate charge-charge Real energy:                  2984.28289570
-	Host/Adsorbate charge-charge Fourier energy:               8605.68398065
+	Host/Adsorbate Coulomb energy:                             5694.62891075
+	Host/Adsorbate charge-charge Real energy:                  5694.62891075
+	Host/Adsorbate charge-charge Fourier energy:                  0.00000000
 	Host/Adsorbate charge-bonddipole Real energy:                 0.00000000
 	Host/Adsorbate charge-bonddipole Fourier energy:              0.00000000
 	Host/Adsorbate bondipole-bonddipole Real energy:              0.00000000
@@ -1167,11 +1164,11 @@ Host/Cation energy:                                           0.00000000
 	Host/Cation bondipole-bonddipole Real energy:                 0.00000000
 	Host/Cation bondipole-bonddipole Fourier energy:              0.00000000
 
-Adsorbate/Adsorbate energy:                                       -0.00000000
+Adsorbate/Adsorbate energy:                                        0.00000000
 	Adsorbate/Adsorbate VDW energy:                                    0.00000000
-	Adsorbate/Adsorbate Coulomb energy:                               -0.00000000
+	Adsorbate/Adsorbate Coulomb energy:                                0.00000000
 	Adsorbate/Adsorbate charge-charge Real energy:                     0.00000000
-	Adsorbate/Adsorbate charge-charge Fourier energy:                 -0.00000000
+	Adsorbate/Adsorbate charge-charge Fourier energy:                  0.00000000
 	Adsorbate/Adsorbate charge-bonddipole Real energy:                 0.00000000
 	Adsorbate/Adsorbate charge-bonddipole Fourier energy:              0.00000000
 	Adsorbate/Adsorbate bondipole-bonddipole Real energy:              0.00000000
@@ -1215,9 +1212,9 @@ Out-of-plane distance constraints energy:                     0.00000000
 Exclusion constraints energy:                                 0.00000000
 
 ===================================================================
-Total energy: 11557.436967644413
+Total energy:  5662.099002049300
 	Total Van der Waals: -32.527289
-	Total Coulomb: 11589.966876
+	Total Coulomb: 5694.628911
 
 	Total Polarization: 0.000000
 
@@ -2286,7 +2283,7 @@ WARNING: THE SYSTEM HAS A NET CHARGE
 WARNING: REINSERTION MOVE USED ON CHARGED IONS (IF POSSIBLE, CHANGE TO RANDOM TRANSLATION MOVE TO AVOID NUMERICAL PROBLEMS)
 
 
-Wed Feb  5 23:39:26 2025
-Simulation finished on Wednesday, February 05.
-The end time was 11:39 PM.
+Thu Feb  6 16:29:38 2025
+Simulation finished on Thursday, February 06.
+The end time was 04:29 PM.
 
