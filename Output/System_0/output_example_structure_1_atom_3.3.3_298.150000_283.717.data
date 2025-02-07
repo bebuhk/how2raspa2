@@ -5,9 +5,9 @@ Compiled as a 64-bits application
 Compiler: gcc Apple LLVM 15.0.0 (clang-1500.3.9.4)
 Compile Date = Jan 17 2025, Compile Time = 14:34:57
 
-Fri Feb  7 16:17:28 2025
+Fri Feb  7 16:58:23 2025
 Simulation started on Friday, February 07.
-The start time was 04:17 PM.
+The start time was 04:58 PM.
 
 Cpu data:    arm64
 Cpu Model:   Mac14,2
@@ -20,7 +20,7 @@ OS version:  23C71
 Simulation
 ===========================================================================
 Dimensions: 3
-Random number seed: 1738941448
+Random number seed: 1738943903
 RASPA directory set to: /Users/bene/RASPA/simulations/
 String appended to output-files: 
 Number of cycles: 0
@@ -249,7 +249,7 @@ Pseudo Atom[   2] Name C        Oxidation:          Element: C    pdb-name: C   
                  Anisotropic factor:    0.000 [-] (Absolute), Radius:    0.750 [A], Framework-atom: yes (charge from structure file)
 
 
-Forcefield: ExampleMoleculeForceField
+Forcefield: Local
 ===========================================================================
 Minimal distance: 1
 CutOff VDW : 20.000000 (400.000000)
@@ -2283,7 +2283,7 @@ WARNING: THE SYSTEM HAS A NET CHARGE
 WARNING: REINSERTION MOVE USED ON CHARGED IONS (IF POSSIBLE, CHANGE TO RANDOM TRANSLATION MOVE TO AVOID NUMERICAL PROBLEMS)
 
 
-Fri Feb  7 16:17:28 2025
+Fri Feb  7 16:58:23 2025
 Simulation finished on Friday, February 07.
-The end time was 04:17 PM.
+The end time was 04:58 PM.
 

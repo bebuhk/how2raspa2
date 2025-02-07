@@ -3,7 +3,7 @@ NumberOfCycles                0
 NumberOfInitializationCycles  0
 PrintEvery                    1
 #RandomSeed                    1737124642
-Forcefield                    ExampleMoleculeForceField
+Forcefield                    Local
 # important: comment out the line below with # when "starting from scratch" (see README.md)
 RestartFile                   yes
 
@@ -43,3 +43,10 @@ Component 0 MoleculeName             XX
             ReinsertionProbability   1.0
             RotationProbability 1.0
             WidomProbability 0.0
+
+# what to check: 
+#1 MOF: right cif. charges (in cif), LJ params (atoms of cif, UFF params in force_field_mixing_rules.def)
+#2 adsorbate: XX with atom XXX: charges (in pseudo_atoms.def), LJ params (in force_field_mixing_rules.def)
+#3 VDW/LJ interaction: params in force_field_mixing_rules.def, CutOffVDW (default:12)
+#4 Coulomb interaction: charges in cif and XX.def, ChargeMethod Ewald/CoulombTruncated, EwaldPrecision 1e-9, 
+#  CutOffChargeCharge (default: 12)
