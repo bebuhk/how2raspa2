@@ -5,9 +5,9 @@ Compiled as a 64-bits application
 Compiler: gcc Apple LLVM 15.0.0 (clang-1500.3.9.4)
 Compile Date = Jan 17 2025, Compile Time = 14:34:57
 
-Thu Feb  6 16:31:02 2025
+Thu Feb  6 20:50:56 2025
 Simulation started on Thursday, February 06.
-The start time was 04:31 PM.
+The start time was 08:50 PM.
 
 Cpu data:    arm64
 Cpu Model:   Mac14,2
@@ -20,7 +20,7 @@ OS version:  23C71
 Simulation
 ===========================================================================
 Dimensions: 3
-Random number seed: 1738855862
+Random number seed: 1738871456
 RASPA directory set to: /Users/bene/RASPA/simulations/
 String appended to output-files: 
 Number of cycles: 0
@@ -2283,7 +2283,7 @@ WARNING: THE SYSTEM HAS A NET CHARGE
 WARNING: REINSERTION MOVE USED ON CHARGED IONS (IF POSSIBLE, CHANGE TO RANDOM TRANSLATION MOVE TO AVOID NUMERICAL PROBLEMS)
 
 
-Thu Feb  6 16:31:02 2025
+Thu Feb  6 20:50:56 2025
 Simulation finished on Thursday, February 06.
-The end time was 04:31 PM.
+The end time was 08:50 PM.
 

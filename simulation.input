@@ -26,6 +26,7 @@ EwaldPrecision 1e-9
 CutOffChargeCharge 40
 #CutOffChargeChargeSwitch 3
 
+Movies no
 #ExternalTemperature 300.0
 Framework 0
    FrameworkName example_structure_1_atom
